@@ -1,4 +1,4 @@
-package threadClass;
+package com.thread.examples;
 
 class ThreadNoRun extends Thread{
     //if we are not over riding run method, then thread class run method will be executed which has empty

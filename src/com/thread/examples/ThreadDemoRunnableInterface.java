@@ -1,4 +1,4 @@
-package threadClass;
+package com.thread.examples;
 
 //defining a thread with Runnable interface
 class MyRunnable implements Runnable{
