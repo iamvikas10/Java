@@ -26,7 +26,6 @@ class ThreadInterruptCase extends Thread{
         }catch (InterruptedException e){
             System.out.println("I am getting interrrupted");
         }
-
     }
 }
 public class InterruptThreadDemo {
@@ -50,6 +49,5 @@ public class InterruptThreadDemo {
         * this is the only case where interrupt all will be wasted
         * */
         System.out.println("End of Main Thread");
-
     }
 }
