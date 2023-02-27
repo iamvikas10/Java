@@ -1,2 +1,2 @@
-# MultiThreading
-This repository contains examples for multithreading in java
+# Java
+This repository contains Examples for Java Concepts Understanding
