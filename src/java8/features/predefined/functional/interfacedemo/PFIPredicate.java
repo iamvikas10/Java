@@ -23,7 +23,7 @@ IntPredicate
 IntFunction
 IntConsumer
  */
-public class PredefinedFunctionalInterfaces {
+public class PFIPredicate {
 
     public static void main(String[] args){
         Predicate<Integer> p1 = I -> I%2 == 0;
