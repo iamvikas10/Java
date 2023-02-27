@@ -8,6 +8,10 @@ import java.util.function.Predicate;
 interface Consumer<T>{
     public void accept(T t)
 }
+
+Take Some Input and perform some conditional check and return boolean value --> Predicate
+Take some input and perform some operation and return the result which need not be of boolean type --> Function
+Accept some input and perform required operation and not required to return anything --> Consumer
  */
 public class PFIConsumer {
     public static void main(String[] args) {
