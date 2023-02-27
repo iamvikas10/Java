@@ -22,6 +22,11 @@ Default Method/ Virtual Extension Method / Defender Method
 default method cannot be defined in classes
 default method cannot be used to override Object method
 
+Without affecting implementation classes if we want to add new methods to the interface
+ (Extending interface functionality) ==> default Methods
+
+To define general utility methods inside interface with static
+
  */
 public class DefaultMethod {
 }
