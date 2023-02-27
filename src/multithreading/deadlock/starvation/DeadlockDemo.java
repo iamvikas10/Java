@@ -54,5 +54,8 @@ public class DeadlockDemo {
     public static void main(String[] args){
         MyThread t = new MyThread();
         t.m1();
+
+        //Synchronizer keyword is the only reason for deadlock situation.
+        //due to this, take care while using synchronized keyword
     }
 }
