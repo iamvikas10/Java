@@ -1,4 +1,4 @@
-package com.thread.examples;
+package multithreading.thread.examples;
 
 class VenueFixing implements Runnable{
     static Thread venueThread;

@@ -1,4 +1,4 @@
-package com.thread.examples;
+package multithreading.thread.examples;
 
 class SlideRotator extends Thread{
     //public static native void sleep(long ms) throws InterruptedException

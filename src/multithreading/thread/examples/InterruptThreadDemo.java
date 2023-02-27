@@ -1,4 +1,4 @@
-package com.thread.examples;
+package multithreading.thread.examples;
 
 class ThreadInterrupt extends Thread{
     //A thread can interrupt a sleeping or waiting thread by using Interrupt method of Thread class

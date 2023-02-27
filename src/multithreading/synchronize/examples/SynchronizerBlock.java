@@ -1,4 +1,4 @@
-package com.synchronize.examples;
+package multithreading.synchronize.examples;
 
 class Disp {
     public void wish(String name) {
