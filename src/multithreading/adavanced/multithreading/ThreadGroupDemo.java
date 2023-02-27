@@ -50,6 +50,15 @@ class ThreadGroupDemo2{
         MyThread t2 = new MyThread(pg, "ChildThread2");
         t1.start();
         t2.start();
+
+        //Program to fetch the active threads from System
+        ThreadGroup system = Thread.currentThread().getThreadGroup().getParent();
+        Thread[] t = new Thread[system.activeCount()];
+        system.enumerate(t);
+        for(Thread x : t){
+            System.out.println(x.getName() +"...." + x.isDaemon());
+        }
+
         System.out.println(pg.activeCount()); //2
         System.out.println(pg.activeGroupCount()); //1
         pg.list();
