@@ -31,7 +31,14 @@ public class InnerClassLambda {
     }
 }
 
-class AnnonymousInnerClass{
+class AnonymousInnerClass{
+    /*
+    1. Anonymous Inner class can extend a normal class
+    2. Anonymous Inner class can extend an abstract class
+    3. Anonymous Inner class can implement an interface which contains any number of abstract methods
+
+    Lambda Expression can implement an interface which contains a single abstract method (FI)
+     */
     public static void main(String[] args){
         Runnable r = new Runnable() {
             @Override
