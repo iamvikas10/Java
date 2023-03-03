@@ -32,7 +32,10 @@ public class ThreadPoolDemo  {
                 new PrintJob("Anil")
         };
 
-        ExecutorService service = Executors.newFixedThreadPool(3);
+        ExecutorService service = Executors.newFixedThreadPool(3); //Underlying data Structure ArrayBlockingQueue
+        ExecutorService service1 = Executors.newCachedThreadPool();
+        //CachedThreadPool() can reuse the thread, as well as create new threads when needed. If a thread is idle for
+        //60 seconds, CachedThreadPool will kill it
         //3 threads are responsible for 6 jobs so that a single thread can be used for multiple jobs
         for(PrintJob job: jobs){
             service.submit(job);

@@ -46,7 +46,7 @@ public class InterruptThreadDemo {
         * the target thread
         *
         * If target never entered into sleeping or waiting state in its lifetime, then there is no impact of interrupt call,
-        * this is the only case where interrupt all will be wasted
+        * this is the only case where interrupt call will be wasted
         * */
         System.out.println("End of Main Thread");
     }
