@@ -62,5 +62,31 @@ class TestDemo{
         Function<Integer, Integer> f2 = i-> i*i*i;
         System.out.println(f1.andThen(f2).apply(2));
         System.out.println(f1.compose(f2).apply(2));
+
+        /*
+            Function<Subject, Double> percentageFun = s->{
+
+            int totalMarks = s.getSubject1() + s.getSubject2() + s.getSubject3() + s.getSubject4() + s.getSubject5();
+            Double percent = totalMarks/500.0 * 100;
+            return percent;
+        };
+
+        Function<Double, String> gradeFun = s->{
+            String grade = "";
+            if(s >= 90 && s <=100) grade = "A";
+            else if(s >= 80 && s < 90) grade = "B";
+            else if(s >= 70 && s < 80) grade = "C";
+            else if(s >= 60 && s < 70) grade = "D";
+            else if(s >=50 && s < 60) grade = "E";
+            else grade = "F";
+            return grade;
+        };
+
+        Consumer<Subject> consumer = s -> {
+            System.out.println(percentageFun.andThen(gradeFun).apply(s));
+        };
+        subjectList.stream().forEach(consumer);
+
+ */
     }
 }
