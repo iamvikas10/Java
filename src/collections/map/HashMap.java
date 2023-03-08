@@ -1,7 +1,4 @@
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class HashMap {
     public static void main(String[] args) {
@@ -27,5 +24,11 @@ public class HashMap {
                 m1.setValue(10000);
             }
         }
+        LinkedHashMap m1 = new LinkedHashMap();
+        m1.put("vikas", 700);
+        m1.put("pramender", 800);
+        m1.put("Shanky", 200);
+        m1.put("Aditya", 500);
+        System.out.println(m1);
     }
 }
