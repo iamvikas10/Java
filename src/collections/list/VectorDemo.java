@@ -1,3 +1,5 @@
+package collections.list;
+
 import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.ListIterator;
@@ -43,11 +45,11 @@ public class VectorDemo {
             System.out.println(itr.next());
             itr.remove();
         }
-        System.out.println(s);
-
-        ListIterator ltr = s.listIterator();
-        while(ltr.hasNext()){
-
-        }
+//        System.out.println(s);
+//
+//        ListIterator ltr = s.listIterator();
+//        while(ltr.hasNext()){
+//
+//        }
     }
 }

@@ -1,3 +1,5 @@
+package collections.map;
+
 import java.util.HashMap;
 
 class Temp{
@@ -5,9 +7,9 @@ class Temp{
         return "Temp";
     }
 
-    public void finalize(){
-        System.out.println("Finalized method called");
-    }
+//    public void finalize(){
+//        System.out.println("Finalized method called");
+//    }
 }
 
 public class WeakHashMapDemo {

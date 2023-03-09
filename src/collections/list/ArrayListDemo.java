@@ -1,3 +1,5 @@
+package collections.list;
+
 import java.io.Serializable;
 import java.util.*;
 

@@ -1,3 +1,5 @@
+package collections.map;
+
 import java.util.Hashtable;
 
 class Temp1{

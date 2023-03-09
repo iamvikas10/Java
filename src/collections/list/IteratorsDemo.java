@@ -1,3 +1,5 @@
+package collections.list;
+
 import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.ListIterator;

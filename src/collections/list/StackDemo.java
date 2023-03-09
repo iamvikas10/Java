@@ -1,3 +1,5 @@
+package collections.list;
+
 import java.util.Stack;
 
 public class StackDemo {
