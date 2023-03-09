@@ -1,6 +1,8 @@
+package collections.map;
+
 import java.util.*;
 
-public class HashMap {
+public class HashMapDemo {
     public static void main(String[] args) {
         java.util.HashMap m = new java.util.HashMap();
         m.put("vikas", 700);
